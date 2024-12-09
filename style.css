@@ -1,0 +1,70 @@
+/*
+body {
+	background: linear-gradient(-45deg, #ffcccc, #94bbe9, #ffcccc);
+	background-size: 400% 400%;
+	animation: gradient 40s ease infinite;
+} */
+
+ body {
+	background: linear-gradient(-45deg, #9894E9, #94bbe9, #94bbe9, #9894E9);
+	background-size: 5000% 5000%;
+	animation: gradient 40s ease infinite;
+}
+
+@keyframes gradient {
+	0% {background-position: 0% 50%;}
+	50% {background-position: 100% 50%;}
+	100% {background-position: 0% 50%;}
+}
+
+
+a {
+color: #FFF;
+text-decoration: underline;
+}
+
+h1 {
+color: #FFF;
+font-family: "Larish.otf";
+font-size: 40px;
+font-style: normal;
+font-weight: normal;
+line-height: 1.2;
+
+margin-left: 50px;
+margin-right: 50px;
+margin-top: 45px;
+width: 70%;
+
+text-decoration: none;
+
+text-rendering: optimizeLegibility;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+}
+
+h2 {
+color: #FFF;
+font-family: "Larish.otf";
+font-size: 14px;
+font-style: normal;
+font-weight: normal;
+line-height: 1.2;
+
+margin-left: 50px;
+margin-right: 50px;
+margin-top: 45px;
+width: 35%;
+
+text-decoration: none;
+
+text-rendering: optimizeLegibility;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+}
+
+/* embedded fonts larish */
+@font-face {
+	font-family: "Larish.otf";
+	src: local("Larish"), local(Larish), url(fonts/Larish.otf);
+	}
