@@ -65,6 +65,6 @@ text-rendering: optimizeLegibility;
 
 /* embedded fonts larish */
 @font-face {
-	font-family: "Larish.otf";
-	src: local("Larish"), local(Larish), url(Larish.otf);
+	font-family: "larish.otf";
+	src: local("larish"), local(larish), url(larish.otf);
 	}
