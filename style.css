@@ -1,6 +1,6 @@
 @font-face {
     font-family: "larish.otf";
-    src: local("larish"), local(larish), url(Larish.otf);
+    src: local("larish"), local(larish), url(larish.otf);
 }
 
 body {
@@ -22,7 +22,7 @@ a {
 
 h1 {
     color: #FFF;
-    font-family: "Larish.otf";
+    font-family: "larish.otf";
     font-size: 40px;
     font-style: normal;
     font-weight: normal;
@@ -39,7 +39,7 @@ h1 {
 
 h2 {
     color: #FFF;
-    font-family: "Larish.otf";
+    font-family: "larish.otf";
     font-size: 15px;
     font-style: normal;
     font-weight: normal;
