@@ -39,7 +39,7 @@ text-rendering: optimizeLegibility;
 h2 {
 color: #FFF;
 font-family: "Larish.otf";
-font-size: 16px;
+font-size: 15px;
 font-style: normal;
 font-weight: normal;
 line-height: 1.2;
@@ -47,7 +47,7 @@ line-height: 1.2;
 margin-left: 0px;
 margin-right: 0px;
 margin-top: 45px;
-width: 50%;
+width: 45%;
 
 text-decoration: none;
 
