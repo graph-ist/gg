@@ -1,63 +1,88 @@
+/* embedded fonts larish */
+@font-face {
+    font-family: "larish.otf";
+    src: local("larish"), local(larish), url(fonts/Larish.otf);
+}
+
 body {
-	background: linear-gradient(-45deg, #9894E9, #94bbe9, #94bbe9, #9894E9);
-	background-size: 5000% 5000%;
-	animation: gradient 40s ease infinite;
+    background: linear-gradient(-45deg, #9894E9, #94bbe9, #94bbe9, #9894E9);
+    background-size: 5000% 5000%;
+    animation: gradient 40s ease infinite;
 }
 
 @keyframes gradient {
-	0% {background-position: 0% 50%;}
-	50% {background-position: 100% 50%;}
-	100% {background-position: 0% 50%;}
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
 }
 
-
 a {
-color: #FFF;
-text-decoration: underline;
+    color: #FFF;
+    text-decoration: underline;
 }
 
 h1 {
-color: #FFF;
-font-family: "Larish.otf";
-font-size: 40px;
-font-style: normal;
-font-weight: normal;
-line-height: 1.2;
-
-margin-left: 50px;
-margin-right: 50px;
-margin-top: 45px;
-width: 80%;
-
-text-decoration: none;
-
-text-rendering: optimizeLegibility;
--webkit-font-smoothing: antialiased;
--moz-osx-font-smoothing: grayscale;
+    color: #FFF;
+    font-family: "Larish.otf";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1.2;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 45px;
+    width: 80%;
+    text-decoration: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 h2 {
-color: #FFF;
-font-family: "Larish.otf";
-font-size: 15px;
-font-style: normal;
-font-weight: normal;
-line-height: 1.2;
-
-margin-left: 0px;
-margin-right: 0px;
-margin-top: 45px;
-width: 45%;
-
-text-decoration: none;
-
-text-rendering: optimizeLegibility;
--webkit-font-smoothing: antialiased;
--moz-osx-font-smoothing: grayscale;
+    color: #FFF;
+    font-family: "Larish.otf";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1.2;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 45px;
+    width: 35%;
+    text-decoration: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
-/* embedded fonts larish */
-@font-face {
-	font-family: "larish.otf";
-	src: local("larish"), local(larish), url(larish.otf);
-	}
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 30px;
+        margin-left: 20px;
+        margin-right: 20px;
+        width: 90%;
+    }
+
+    h2 {
+        font-size: 12px;
+        margin-left: 20px;
+        margin-right: 20px;
+        width: 80%;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 25px;
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 100%;
+    }
+
+    h2 {
+        font-size: 10px;
+        margin-left: 10px;
+        margin-right: 10px; 
+		width: 100%; } 
+}
