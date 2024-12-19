@@ -1,0 +1,3 @@
+I’m a senior researcher with a Ph.D. in Human-Computer Interaction. Currently, I work at BMW developing in-car user interfaces and interaction concepts. Since 2009, I’ve contributed to numerous projects for both digital and analog mediums, earning recognition from the German Design Award Council. I collaborate with other studios on a project-based basis and occasionally give lectures. 
+
+If you are curious, I also curate a <a href="https://www.zotero.org/groups/5733422/design_matter/library">database</a> where I collect resources that inspire my research and practice. But enough about me, now <a href="mailto:info@graph.ist"> tell me</a> about your project!
