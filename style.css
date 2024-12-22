@@ -78,27 +78,13 @@ h2 {
 
 @media (max-width: 480px) {
     h1 {
-        color: #FFF;
         font-size: 25px;
         margin-left: 10px;
         margin-right: 10px;
         width: 100%;
     }
 
-    body {
-        background: linear-gradient(-45deg, #4A4E69, #9A8C98, #C9ADA7, #F2E9E4);
-        background-size: 600% 600%;
-        animation: gradient 60s ease infinite;
-    }
-
-    @keyframes gradient {
-        0% {background-position: 0% 50%;}
-        50% {background-position: 100% 50%;}
-        100% {background-position: 0% 50%;}
-    }
-
     h2 {
-        color: #FFF;
         font-size: 10px;
         margin-left: 10px;
         margin-right: 10px; 
