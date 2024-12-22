@@ -4,10 +4,12 @@
 }
 
 body {
-    background: linear-gradient(-45deg, #4A4E69, #9A8C98, #C9ADA7, #F2E9E4);
+    background: linear-gradient(-45deg, #4A4E69, #9A8C98, #C9ADA7, #F2E9E4); 
+/*    background: linear-gradient(-45deg, #9894E9, #94bbe9, #94bbe9, #9894E9); Alternative */
     background-size: 600% 600%;
     animation: gradient 60s ease infinite;
 }
+
 @keyframes gradient {
     0% {background-position: 0% 50%;}
     50% {background-position: 100% 50%;}
