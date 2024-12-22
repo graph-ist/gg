@@ -4,91 +4,70 @@
 }
 
 body {
-    background: linear-gradient(-45deg, #4A4E69, #9A8C98, #C9ADA7, #F2E9E4); 
-/*    background: linear-gradient(-45deg, #9894E9, #94bbe9, #94bbe9, #9894E9); Alternative */
-    background-size: 600% 600%;
-    animation: gradient 60s ease infinite;
-}
-
-@keyframes gradient {
-    0% {background-position: 0% 50%;}
-    50% {background-position: 100% 50%;}
-    100% {background-position: 0% 50%;}
+    background: #A2CDFF;
+    color: #090909;
+    font-family: "larish.otf";
+    margin: 0;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 a {
-    color: #FFF;
+    color: inherit; /* Usa il colore principale del testo */
     text-decoration: underline;
-
 }
 
 a:focus {
-    outline: 2px solid #FFF;
+    outline: 2px solid currentColor; /* Usa il colore del testo corrente */
     outline-offset: 2px;
 }
 
-h1 {
-    color: #FFF;
-    font-family: "larish.otf";
-    font-size: 40px;
+h1, h2 {
+    color: inherit;
+    font-family: inherit;
     font-style: normal;
     font-weight: normal;
     line-height: 1.2;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-top: 45px;
-    width: 80%;
+    margin: 45px 50px 0; /* Top, orizzontale, bottom */
     text-decoration: none;
-    text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+    font-size: 40px;
+    width: 80%;
 }
 
 h2 {
-    color: #FFF;
-    font-family: "larish.otf";
     font-size: 15px;
-    font-style: normal;
-    font-weight: normal;
-    line-height: 1.2;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-top: 45px;
     width: 35%;
-    text-decoration: none;
-    text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
 }
 
 /* Mobile Responsiveness */
 @media (max-width: 768px) {
     h1 {
         font-size: 30px;
-        margin-left: 20px;
-        margin-right: 20px;
+        margin: 45px 20px 0;
         width: 90%;
     }
 
     h2 {
         font-size: 12px;
-        margin-left: 20px;
-        margin-right: 20px;
+        margin: 45px 20px 0;
         width: 80%;
     }
 }
 
 @media (max-width: 480px) {
     h1 {
-        font-size: 25px;
-        margin-left: 10px;
-        margin-right: 10px;
-        width: 100%;
+        font-size: 20px;
+        margin: 45px 10px 0;
+        width: 90%;
     }
 
     h2 {
         font-size: 10px;
-        margin-left: 10px;
-        margin-right: 10px; 
-	width: 100%; } 
+        margin: 45px 10px 0;
+        width: 90%;
+    }
 }
