@@ -34,19 +34,19 @@ h1, h2 {
     color: inherit;
     font-family: inherit;
     font-style: normal;
-    font-weight: 700; /* Ensure strong emphasis */
+    font-weight: 500; /* Ensure strong emphasis */
     line-height: 1.2;
     margin: 45px 5vw 0; /* Use relative units for responsive scaling */
     text-decoration: none;
 }
 
 h1 {
-    font-size: clamp(2rem, 5vw, 3.75rem); /* Ensures responsiveness across devices */
+    font-size: clamp(1.5rem, 4vw, 3rem); /* Ensures responsiveness across devices */
     max-width: 80%;
 }
 
 h2 {
-    font-size: clamp(1rem, 2vw, 1.25rem); /* Dynamic sizing */
+    font-size: clamp(.875rem, 1.5vw, 1rem); /* Dynamic sizing */
     max-width: 35%;
 }
 
