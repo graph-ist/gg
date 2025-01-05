@@ -8,6 +8,25 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+#scramble-text {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: clamp(1.5rem, 4vw, 3rem);
+    font-weight: bold;
+    color: #ffbb00;
+    text-align: center;
+    margin-top: 20%;
+    animation: fade-in 1s ease-in-out;
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
 canvas {
     display: block;
 }
