@@ -4,7 +4,8 @@
 }
 
 body {
-    background: #58718E;
+    /* background: #58718E; */
+    background: linear-gradient(180deg, #001F54, #6A0572, #D74700, #FF4500);
     color: #FFFFFF;
     font-family: "larish.otf";
     margin: 0;
@@ -70,19 +71,4 @@ h2 {
         margin: 45px 10px 0;
         width: 90%;
     }
-}
-
-.magnetic-container {
-  position: relative;
-}
-
-.magnetic-button {
-  padding: 15px 30px;
-  font-size: 16px;
-  border: none;
-  background-color: #007BFF;
-  color: white;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: transform 0.2s ease-out;
 }
