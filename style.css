@@ -1,19 +1,14 @@
-@font-face {
-    font-family: "larish.otf";
-    src: local("larish"), local(larish), url(larish.otf);
-}
-
 body {
-    background: #12171d;
+    background: #000000;
     color: #FFFFFF;
-    font-family: "larish.otf";
+    font-family: 'Space Grotesk', sans-serif;
     margin: 0;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
 
-  canvas {
+canvas {
     display: block;
   }
 
