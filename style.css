@@ -1,3 +1,10 @@
+#scramble-text {
+    font-size: clamp(1.5rem, 4vw, 3.5rem); /* Larger font size for better visibility */
+    font-weight: 700; /* Bold to emphasize animation */
+    color: #ffbb00; /* Add a unique color for better contrast */
+    text-align: center;
+}
+
 body {
     background-color: #000; /* Simplified hex for black */
     color: #FFF; /* Simplified hex for white */
