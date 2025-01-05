@@ -5,7 +5,7 @@
 
 body {
     /* background: #58718E; */
-    background: linear-gradient(180deg, #001F54, #6A0572, #D74700, #FF4500);
+    background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(0,0,0,0.8) 20%, rgba(27,6,49,0.8) 40%, rgba(150,60,150,0.7) 60%, rgba(255,69,0,0.7) 80%, rgba(255,69,0,1) 100%);
     color: #FFFFFF;
     font-family: "larish.otf";
     margin: 0;
