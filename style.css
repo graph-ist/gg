@@ -40,7 +40,7 @@ h1, h2 {
 
 h1 {
     font-size: clamp(1.5rem, 3.8vw, 3rem); /* Ensures responsiveness across devices */
-    max-width: 82%;
+    max-width: 80%;
 }
 
 h2 {
