@@ -4,22 +4,20 @@
 }
 
 body {
-    background: #12171d;
+  /*  background: #12171d;*/
     color: #FFFFFF;
     font-family: "larish.otf";
     margin: 0;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-}
-
-.gravity-container {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
+    
+    overflow: hidden;
+    background: #1e3a5f; /* Colore simile all'acqua */
+  }
+  
+  canvas {
+    display: block;
   }
 
 a {
