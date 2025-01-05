@@ -1,8 +1,14 @@
-#scramble-text {
-    font-size: clamp(1.5rem, 4vw, 3.5rem); /* Larger font size for better visibility */
-    font-weight: 700; /* Bold to emphasize animation */
-    color: #ffbb00; /* Add a unique color for better contrast */
-    text-align: center;
+.orange {
+  color:#ff8709;
+  background: none;
+}
+
+.demo {
+  padding: 2rem;
+  font-size: 1.5rem;
+  text-align: left;
+  height: 100vh;
+
 }
 
 body {
