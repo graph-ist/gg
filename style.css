@@ -4,27 +4,14 @@
 }
 
 body {
-  /*  background: #12171d;*/
+    background: #12171d;
     color: #FFFFFF;
     font-family: "larish.otf";
     margin: 0;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    
-    overflow: hidden;
-    background: #92b8e9; /* Colore simile all'acqua */
   }
-
-  canvas {
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 9999; /* Mette il canvas sotto al contenuto principale */
-}
 
   canvas {
     display: block;
