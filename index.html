@@ -17,6 +17,45 @@
     <meta name="keywords" content="Human-Computer Interaction, HCI, User Experience, UX, User Interaction, IX, User Interface, UI, Design Research">
 </head>
 <body>
+	<main>
+        <h1 id="scramble-text">Hello, World!</h1>
+    </main>
+
+    <script>
+        // Custom Scramble Text Effect
+        const scrambleText = (element, newText, duration = 2000) => {
+            const chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+            const text = element.textContent; // Get current text
+            const length = newText.length > text.length ? newText.length : text.length;
+            const scrambleInterval = 50; // Delay between scrambles
+            let progress = 0;
+
+            const updateText = () => {
+                progress += scrambleInterval;
+                const scrambled = newText
+                    .split('')
+                    .map((char, i) => {
+                        if (progress > duration) return newText[i] || ''; // Reveal final text
+                        if (i > progress / (duration / length)) return char; // Reveal character
+                        return chars[Math.floor(Math.random() * chars.length)]; // Scramble
+                    })
+                    .join('');
+
+                element.textContent = scrambled;
+
+                if (progress < duration) {
+                    setTimeout(updateText, scrambleInterval);
+                }
+            };
+
+            updateText();
+        };
+
+        // Run the scramble effect
+        const element = document.getElementById("scramble-text");
+        scrambleText(element, "Welcome to my portfolio! Let's explore design, creativity, and technology.", 3000);
+    </script>
+
         <h1>
 		I’m a senior researcher with a PhD in Human-Computer Interaction.
 		Currently, I work at BMW developing in-car user interfaces and interaction concepts.
