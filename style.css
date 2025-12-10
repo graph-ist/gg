@@ -41,43 +41,47 @@ h1, h2 {
    color: inherit;
    font-family: inherit;
    font-style: normal;
-   font-weight: 500; /* Ensure strong emphasis */
+   font-weight: 500;
    line-height: 1.2;
-   margin: 45px 5vw 0; /* Use relative units for responsive scaling */
+   margin: 80px 5vw 0 8vw; /* Increased top (80px) and left (8vw) margins */
    text-decoration: none;
 }
 
 h1 {
-   font-size: clamp(1.5rem, 3.8vw, 3rem); /* Ensures responsiveness across devices */
+   font-size: clamp(1.5rem, 3.8vw, 3rem);
    max-width: 80%;
 }
 
 h2 {
-   font-size: clamp(.875rem, 1.5vw, 1rem); /* Dynamic sizing */
+   font-size: clamp(.875rem, 1.5vw, 1rem);
    max-width: 35%;
 }
 
 @media (max-width: 768px) {
+   h1, h2 {
+       margin: 70px 5vw 0 7vw;
+   }
+
    h1 {
-       margin: 45px 5vw 0;
        max-width: 90%;
    }
 
    h2 {
-       margin: 45px 5vw 0;
        max-width: 80%;
    }
 }
 
 @media (max-width: 480px) {
+   h1, h2 {
+       margin: 60px 3vw 0 5vw;
+   }
+
    h1 {
-       font-size: clamp(1.5rem, 5vw, 2.5rem); /* Maintain proportions */
-       margin: 45px 2vw 0;
+       font-size: clamp(1.5rem, 5vw, 2.5rem);
    }
 
    h2 {
        font-size: clamp(0.8rem, 3vw, 1rem);
-       margin: 45px 2vw 0;
    }
 }
 
