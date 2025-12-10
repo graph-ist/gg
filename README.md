@@ -1,10 +1,6 @@
-# Graph.ist - Personal Website
+# Personal Website
 
-Personal website and portfolio for a Senior Researcher in Human-Computer Interaction.
-
-## About
-
-This is a minimalist personal website showcasing professional background in HCI, UX, and interface design research. The site features a clean, typography-focused design that emphasizes content and accessibility.
+This is a minimalist personal website showcasing professional background in HCI, and interface design research. The site features a clean, typography-focused design that emphasizes content and accessibility.
 
 ## Features
 
@@ -29,14 +25,6 @@ This is a minimalist personal website showcasing professional background in HCI,
 ├── CNAME           # Custom domain configuration
 └── README.md       # This file
 ```
-
-## Deployment
-
-This site is designed to be hosted on static hosting platforms like:
-- GitHub Pages
-- Netlify
-- Vercel
-- Any static file server
 
 ## Local Development
 
