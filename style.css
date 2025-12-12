@@ -1,6 +1,6 @@
 body {
-   background-color: #000; /* Simplified hex for black */
-   color: #FFF; /* Simplified hex for white */
+   background-color: #FFF; /* Simplified hex for black */
+   color: #000; /* Simplified hex for white */
    font-family: 'Space Grotesk', sans-serif;
    margin: 0;
    text-rendering: optimizeLegibility;
@@ -97,3 +97,4 @@ h2 {
 .visible {
    display: block !important;
 }
+
