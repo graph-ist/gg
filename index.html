@@ -1,44 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta name="description" content="Human-Computer Interaction (HCI), User Experience (UX), User Interface (UI), and User Interaction (IX) design.">
-		<meta name="theme-color" content="#FFF">
-		<meta name="apple-mobile-web-app-status-bar-style" content="default">
-		<title>Senior Researcher in Interaction Systems</title>
-
-		<!-- Open Graph / Social Media -->
-		<meta property="og:type" content="website">
-		<meta property="og:title" content="Senior Researcher in Interaction Systems">
-		<meta property="og:description" content="Senior Researcher with a PhD in Human-Computer Interaction working at BMW Group.">
-		<meta property="og:url" content="https://graph.ist">
-
-		<!-- Twitter Card -->
-		<meta name="twitter:card" content="summary">
-		<meta name="twitter:title" content="Senior Researcher in Interaction Systems">
-		<meta name="twitter:description" content="Senior Researcher with a PhD in Human-Computer Interaction working at BMW Group.">
-
-		<!-- Favicon -->
-		<link rel="icon" type="image/x-icon" href="/favicon.ico">
-
-		<!-- Styles -->
-		<link rel="stylesheet" href="style.css">
-		<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
-
-		<!-- Accessibility & SEO -->
-		<meta name="author" content="Graph">
-		<meta name="keywords" content="Human-Computer Interaction, HCI, User Experience, UX, User Interaction, IX, User Interface, UI, Design Research, BMW, Interface Design">
-	</head>
-	<body>
-		<main>
-			<h1>
-				I am a Senior Researcher with a PhD in Human–Computer Interaction and currently work at BMW on interaction systems. 
-				My work <a href="https://orcid.org/0009-0003-9645-7637">&#8599</a> combines design theory, cognitive science, and computer science, with a focus on the epistemic structures of design.
-				<br><br>
-				Since 2009, I have collaborated on digital and analog projects and have received recognition from the German Design Award.
-				I am open to discussing collaborative research and design projects <a href="mailto:info@graph.ist">&#8599</a>.
-			</h1>
-		</main>
-	</body>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Human-Computer Interaction (HCI), User Experience (UX), User Interface (UI), and User Interaction (IX) design.">
+	<meta name="theme-color" content="#FFF">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+	<title>Senior Researcher in Interaction Systems</title>
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="Senior Researcher in Interaction Systems">
+	<meta property="og:description" content="Senior Researcher with a PhD in Human-Computer Interaction working at BMW Group.">
+	<meta property="og:url" content="https://graph.ist">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<main>
+		<h1>g</h1>
+		<p>
+			I am a Senior Researcher with a PhD in Human–Computer Interaction and currently work at BMW on interaction systems. 
+			My work <a href="https://orcid.org/0009-0003-9645-7637">&#8599</a> combines design theory, cognitive science, and computer science, with a focus on the epistemic structures of design.
+			<br><br>
+			Since 2009, I have collaborated on digital and analog projects and have received recognition from the German Design Award.
+			I am open to discussing collaborative research and design projects <a href="mailto:info@graph.ist">&#8599</a>.
+		</p>
+	</main>
+	<script>
+		document.querySelector('h1').addEventListener('click', function() {
+			document.body.classList.toggle('dark-mode');
+			const themeColor = document.querySelector('meta[name="theme-color"]');
+			const appleStatusBar = document.querySelector('meta[name="apple-mobile-web-app-status-bar-style"]');
+			if (document.body.classList.contains('dark-mode')) {
+				themeColor.setAttribute('content', '#000');
+				appleStatusBar.setAttribute('content', 'black-translucent');
+			} else {
+				themeColor.setAttribute('content', '#FFF');
+				appleStatusBar.setAttribute('content', 'default');
+			}
+		});
+	</script>
+</body>
 </html>
