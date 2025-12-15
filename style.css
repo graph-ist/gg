@@ -81,10 +81,11 @@ p {
 
 @media (max-width: 480px) {
 	p {
-		margin: 60px 3vw 0 5vw;
+		margin: 60px 3vw 0 6vw;
 		font-size: clamp(1.2rem, 4vw, 2rem);
 	}
 	h1 {
+      margin: 60px 3vw 0 6vw;
 		font-size: clamp(1.2rem, 4vw, 2rem);
 	}
 }
@@ -93,4 +94,5 @@ p {
 	outline: 2px solid #FFF;
 	outline-offset: 3px;
 }
+
 
