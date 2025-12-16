@@ -21,21 +21,24 @@
 			My work <a href="https://orcid.org/0009-0003-9645-7637">&#8599</a> combines design theory, cognitive science, and computer science, with a focus on the epistemic structures of design.
 			<br><br>
 			Since 2009, I have collaborated on digital and analog projects and have received recognition from the German Design Award.
-			I am open to discussing collaborative research and design projects <a href="mailto:info@graph.ist">&#8599</a>.
+			Open to discussing <a href="mailto:info@graph.ist">&#8599</a> collaborative research and design projects.
 		</p>
 	</main>
+	<footer>
+		<p>
+			This website uses no tracking or analytics.<br>
+			For encrypted communication <a href="https://keys.openpgp.org/vks/v1/by-fingerprint/4584AC998F3BABD07EB1D46CC5F082A144B763DB">PGP Public Key</a>.
+		</p>
+	</footer>
 	<script>
 		document.querySelector('h1').addEventListener('click', function() {
-			document.body.classList.toggle('dark-mode');
+			const body = document.body;
+			body.classList.toggle('dark-mode');
+			const isDark = body.classList.contains('dark-mode');
 			const themeColor = document.querySelector('meta[name="theme-color"]');
-			const appleStatusBar = document.querySelector('meta[name="apple-mobile-web-app-status-bar-style"]');
-			if (document.body.classList.contains('dark-mode')) {
-				themeColor.setAttribute('content', '#000');
-				appleStatusBar.setAttribute('content', 'black-translucent');
-			} else {
-				themeColor.setAttribute('content', '#FFF');
-				appleStatusBar.setAttribute('content', 'default');
-			}
+			const statusBar = document.querySelector('meta[name="apple-mobile-web-app-status-bar-style"]');
+			themeColor.setAttribute('content', isDark ? '#000' : '#FFF');
+			statusBar.setAttribute('content', isDark ? 'black-translucent' : 'default');
 		});
 	</script>
 </body>
